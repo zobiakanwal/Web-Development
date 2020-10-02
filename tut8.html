@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML Form Tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+        <input type="text" name="username" id="name">
+    </div>
+        <br>
+        <label for="role">Role</label>
+    <div>
+        <input type="text" name="userrole" id="role">
+    </div>
+    <br>
+    <label for="email">Email</label>
+<div>
+    <input type="email" name="useremail" id="email">
+</div>
+<br>
+<label for="date">Date</label>
+<div>
+<input type="datetime" name="userdate" id="date">
+</div>
+<br>
+<label for="bonus">Bonus</label>
+<div>
+<input type="number" name="userbonus" id="bonus">
+</div>
+<br>
+<label for="eligibility">Are you eligible?</label>
+<div>
+<input type="checkbox" name="usereligibility" id="eligibility" checked>
+</div>
+<br>
+<label for="gender">Gender</label>
+<div>
+Male<input type="radio" name="usergender" id="gender">
+Female<input type="radio" name="usergender" id="gender">
+Other<input type="radio" name="usergender" id="gender">
+</div>
+<br>
+<label for="about">Role</label>
+<div>
+<textarea name="userabout" id="about" cols="70" rows="10"></textarea>
+</div>
+<br>
+<div>
+<label for="car">Car</label>
+    <select name="usercar" id="car">
+        <option value="corolla">Corolla</option>
+        <option value="belta">Belta</option>
+        <option value="hilux">Hilux</option>
+    </select>
+</div>
+<br>
+<div>
+<input type="submit" value="submit">
+<input type="reset" value="Reset">
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* comment in css */
+
+        /* element selector */
+        p{
+            color: tomato;
+        }
+        /* id selector */
+        #secondPara{
+            color: magenta;
+        }
+        /* class selector */
+        .yellowBG{
+            background-color: yellow;
+        }
+        .border{
+            border: 2px solid blue;
+        }
+        /* grouping selector */
+        span,footer{
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <!-- comment in html -->
+    <h3>CSS Selectors</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, id?</p>
+    <p id="secondPara" class="yellowBG border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, id? class!</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <span>Lorem ipsum dolor sit amet.</span>
+    </div>
+    <footer>Lorem, ipsum dolor.</footer>
+</body>
+</html>

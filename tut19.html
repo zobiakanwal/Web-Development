@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, Width, Borders and Backgrounds</title>
+    <style>
+        #firstPara{
+            background-color: lightcyan;
+            height:100px;
+            width:400px;
+            /* border-color: lightseagreen;
+            border-width: 4px;
+            border-style:double; */
+            border: 4px double lightseagreen;
+            border-radius: 17px;
+        }
+        #secondPara{
+            background-color: pink;
+            height: 150px;
+            width: 500px;
+            border-top: 4px double fuchsia;
+            border-bottom: 4px double purple;
+            border-left: 4px double lightcoral;
+            border-right: 4px double plum;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:30px;
+            border-top-right-radius:20px;
+            border-bottom-right-radius:45px;
+        }
+        #thirdPara{
+            height: 450px;
+            width: 800px;
+            background-image: url(https://assets.pokemon.com/assets/cms2/img/misc/countries/mt/country_detail_pokemon.png);
+            border: 4px solid red;
+            background-repeat: no-repeat;
+            /* background-repeat: repeat-x; */ /*repeat-x will repeat on x axis*/ 
+            /* background-repeat: repeat-y;  */
+
+            /* background-position: center left; */
+            /*background-position: left center; */
+            /* background-position: right top; */
+             /* background-position: top; */
+             /* background-position: center top; */
+             /* background-position: bottom; */
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p id="firstPara">This is a paragraph</p>
+    <p id="secondPara">This is a paragraph</p>
+    <p id="thirdPara">This is a paragraph</p>
+</body>
+</html>
