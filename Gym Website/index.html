@@ -4,77 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fitness Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <style>
-        *{
-            box-sizing: border-box;
-        }
         body {
+            font-family: 'Oswald', sans-serif;
+            margin: 0px;
+            padding: 0px;
             background-image: url(img/sport-1244925_1280.jpg);
-            background-repeat: no-repeat;
-            background-size:100%;
-            background-attachment: fixed;
-            background-position-y: 40%;
-            width: 30px;
-            height: 9000px;
+            /* background-repeat: no-repeat; */
+            background-size: 100%;
+            background-position-y: -70px;
+            color: rgb(97, 97, 97);
+            ;
         }
-        .logo img{
-            width: 90px;
-            height: 70px;
-            margin: 3px;
-            margin-left: 9px;
-        }
-        h3{
-            /* margin-left: 19px;    */
-            margin-top: 0px;
-            width: 110px;
+
+        .logoBox {
+            border: 2px solid coral;
+            position: absolute;
+            top: 10px;
+            left: 29px;
             text-align: center;
-            font-size: 16px;
-            display: inline-block;
+            color: rgb(56, 55, 55);
+            font-size: 18px;
+            /* font-weight: bold; */
+            width: 120px;
         }
-        .logo{
-            border: 2px solid red;
-            width: 100px;
-            display: inline-block;
+
+        .logoBox img {
+            width: 40px;
+            height: 50px;
+            filter: drop-shadow(16px 16px 10px black);
+            /* filter: invert(); */
+            margin-top: 8px;
         }
-        .navbar li{
-            display: inline-block;
+
+        .logoBox div{
+                    line-height: 22px;
+                    font-size: 22px;
+                }
+                
+        .navigationBox {
+            border: 2px solid coral;
+            width: 44%;
+            margin: auto;
+            margin-top: 10px;
         }
-        .navigation{
-            display: block;
-            width: 600px;
-            border: 2px solid red;
-            margin: -99px 254px;
+
+        .navbar li {
+            list-style: none;
+            display: inline;
+            padding: 19px;
+            font-size: 21px;
         }
-        .navbar li a{
+
+        .navbar li a {
             text-decoration: none;
-            color: black;
-            font-size: 20px;
-            margin: 5px 22px;
+            color: rgb(80, 78, 78);
         }
-        ul{
-            /* display: inline-block; */
-            /* margin: 18px auto; */
+
+        .navbar li a:hover {
+            font-size: 23px;
+            color: white;
+            text-decoration: underline;
+
+        }
+
+        .buttonsBox {
+            border: 2px solid coral;
+            position: absolute;
+            top: 10px;
+            right: 29px;
+        }
+
+        .btn {
+            font-size: 18px;
+            border: 2px solid gray;
+            border-radius: 9px;
+            padding: 4px 14px;
+            margin: 3px 4px;
+            cursor: pointer;
+            font-family: 'Oswald', sans-serif;
+            color: rgb(97, 97, 97);
+        }
+
+        .btn:hover {
+            background-color: rgb(221, 221, 221);
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="img/weightlifter-3944725.png" alt="image">
-            <h3>Fitness Club</h3>
+    <header class="header">
+        <div class="logoBox">
+            <img src="img/weightlifter-3944725.png" alt="">
+            <div>Fitness Club</div>
         </div>
-
-        <div class="navigation">
+        <div class="navigationBox">
             <ul class="navbar">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Fitness Calculator</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
-    </div>
+        <div class="buttonsBox">
+            <button class="btn">
+                Call Us
+            </button>
+            <button class="btn">
+                Email Us
+            </button>
+        </div>
+    </header>
 </body>
 
 </html>
