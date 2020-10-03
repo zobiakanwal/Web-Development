@@ -15,11 +15,11 @@
         let t;
         let time;
         let date;
-      
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         setInterval(() => {
             t = new Date();
             time = t.getHours() + ':' + t.getMinutes() + ':' + t.getSeconds();
-            date = t.toLocaleDateString();
+            date = t.toLocaleDateString(undefined, options);
             document.getElementById('time').innerHTML = time + "<br> on " + date;
         }, 1000);
     </script>
