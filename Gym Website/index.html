@@ -13,15 +13,17 @@
             margin: 0px;
             padding: 0px;
             background-image: url(img/sport-1244925_1280.jpg);
-            /* background-repeat: no-repeat; */
+            /* background-repeat: no-repeat;
+            background-attachment: fixed; */
             background-size: 100%;
             background-position-y: -70px;
+            /* background-position-x: 10px; */
+            background-size: 110%;
             color: rgb(97, 97, 97);
-            ;
         }
 
         .logoBox {
-            border: 2px solid coral;
+            /* border: 2px solid coral; */
             position: absolute;
             top: 10px;
             left: 29px;
@@ -46,10 +48,10 @@
                 }
                 
         .navigationBox {
-            border: 2px solid coral;
+            /* border: 2px solid coral; */
             width: 44%;
             margin: auto;
-            margin-top: 10px;
+            margin-top: 30px;
         }
 
         .navbar li {
@@ -72,9 +74,9 @@
         }
 
         .buttonsBox {
-            border: 2px solid coral;
+            /* border: 2px solid coral; */
             position: absolute;
-            top: 10px;
+            top: 30px;
             right: 29px;
         }
 
@@ -91,6 +93,37 @@
 
         .btn:hover {
             background-color: rgb(221, 221, 221);
+        }
+
+        .container{
+            color:  rgb(56, 55, 55);
+            border: 2px solid white;
+            width: 40%;
+            margin: 70px 50px;
+            text-transform: capitalize;
+            border-radius: 20px;
+   background-color: rgba(202, 200, 209, 0.322);/* Black w/opacity/see-through */
+        }
+
+        .formGroup input, .formGroup button{
+            /* margin: 5px 0px; */
+            padding: 5px 2px;
+            border: 2px solid rgb(56, 55, 55);
+            border-radius: 10px;
+            display: block;
+            width: 70%;
+            margin: 8px auto;
+            text-align: center;
+            font-size: 20px;   
+        }
+        .formGroup .btn{
+            margin-top: 22px;
+        }
+        ::placeholder{
+            color: rgb(87, 86, 86);
+        }
+        .container h1{
+           text-align: center;
         }
     </style>
 </head>
@@ -118,6 +151,33 @@
             </button>
         </div>
     </header>
+
+    <div class="container">
+        <h1>Join the best gym of Pakistan now</h1>
+        <form action="action.php">
+            <div class="formGroup">
+                <input type="text" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="age" id="" placeholder="Enter your Age">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="gender" id="" placeholder="Enter your Gender">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="locality" id="" placeholder="Enter your Locality">
+            </div>
+            <div class="formGroup">
+                <input type="email" name="email" id="" placeholder="Enter your Email Address">
+            </div>
+            <div class="formGroup">
+                <input type="number" name="Phone" id="" placeholder="Enter your Phone Number">
+            </div>
+            <div class="formGroup">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
