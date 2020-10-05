@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Oswald', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(img/pexels-andrea-piacquadio-3836878.jpg);
+             background-repeat: no-repeat;
+            /* background-attachment: fixed;  */
+            /* background-size: 100%; */
+            background-position-y: -78px;
+            /* background-position-x: 10px; */
+            background-size: 100%;
+            color: rgb(97, 97, 97);
+        }
+
+        .logoBox {
+            /* border: 2px solid coral; */
+            position: absolute;
+            top: 10px;
+            left: 29px;
+            text-align: center;
+            /* color: rgb(56, 55, 55); */
+            color: rgb(56, 55, 55);
+            font-size: 18px;
+            /* font-weight: bold; */
+            width: 120px;
+            margin: 0px 30px;
+            font-weight: bold;
+        }
+
+        .logoBox img {
+            width: 40px;
+            height: 50px;
+            filter: drop-shadow(16px 16px 10px black);
+            /* filter: invert(); */
+            margin-top: 8px;
+        }
+
+        .logoBox div{
+                    line-height: 22px;
+                    font-size: 22px;
+                }
+                
+        .navigationBox {
+            /* border: 2px solid coral; */
+            width: 44%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .navbar li {
+            list-style: none;
+            display: inline;
+            padding: 19px;
+            font-size: 21px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            /* color: rgb(80, 78, 78); */
+            color: white;
+        }
+
+        .navbar li a:hover {
+            font-size: 23px;
+            color: rgb(209, 207, 207);;
+            text-decoration: underline;
+
+        }
+
+        .buttonsBox {
+            /* border: 2px solid coral; */
+            position: absolute;
+            top: 30px;
+            right: 29px;
+        }
+
+        .btn {
+            font-size: 18px;
+            border: 2px solid gray;
+            border-radius: 9px;
+            padding: 4px 14px;
+            margin: 3px 4px;
+            cursor: pointer;
+            font-family: 'Oswald', sans-serif;
+            color: rgb(97, 97, 97);
+        }
+
+        .btn:hover {
+            background-color: rgb(209, 207, 207);
+        }
+
+        .container{
+            color:  rgb(56, 55, 55);
+            /* border: 2px solid white; */
+            border: 2px solid rgb(105, 103, 103);
+            width: 40%;
+            margin: 70px 50px;
+            text-transform: capitalize;
+            border-radius: 20px;
+   /*background-color: rgba(202, 200, 209, 0.322);*//* Black w/opacity/see-through */
+   background-color: rgba(98, 97, 102, 0.352);/* Black w/opacity/see-through */
+        }
+
+        .formGroup input, .formGroup button{
+            /* margin: 5px 0px; */
+            padding: 5px 2px;
+            border: 2px solid rgb(56, 55, 55);
+            border-radius: 10px;
+            display: block;
+            width: 70%;
+            margin: 8px auto;
+            text-align: center;
+            font-size: 20px;   
+        }
+        .formGroup .btn{
+            margin-top: 22px;
+        }
+        ::placeholder{
+            color: rgb(87, 86, 86);
+        }
+        .container h1{
+           text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logoBox">
+            <img src="img/weightlifter-3944725.png" alt="">
+            <div>Fitness Club</div>
+        </div>
+        <div class="navigationBox">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="buttonsBox">
+            <button class="btn">
+                Call Us
+            </button>
+            <button class="btn">
+                Email Us
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best gym of Pakistan now</h1>
+        <form action="action.php">
+            <div class="formGroup">
+                <input type="text" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="age" id="" placeholder="Enter your Age">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="gender" id="" placeholder="Enter your Gender">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="locality" id="" placeholder="Enter your Locality">
+            </div>
+            <div class="formGroup">
+                <input type="email" name="email" id="" placeholder="Enter your Email Address">
+            </div>
+            <div class="formGroup">
+                <input type="number" name="Phone" id="" placeholder="Enter your Phone Number">
+            </div>
+            <div class="formGroup">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
