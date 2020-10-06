@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and Z-index</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        #box-1{
+            background-color: red;
+        }
+        #box-2{
+            background-color:green;
+            /* visibility hide the element but left its space */
+            visibility:hidden;
+        }
+        #box-3{
+            background-color: blue;
+            /* display hide the element and its space as well*/
+            display:none;
+        }
+        #box-4{
+            /* z-index works only if position is set and except static pos. the one having greater value will overlap the other */
+            background-color:yellow;
+            position: relative;
+            top: 15px;
+            /* z-index: 1; */
+        }
+        #box-5{
+            /* z-index with low value or -1 value gets hidden by the other element */
+            background-color:orchid;
+            position: relative;
+            top: -25px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1"></div>
+    <div class="box" id="box-2"></div>
+    <p>BOX 2 is hidden with visibility property</p>
+    visibility hide the element but left its space
+    <div class="box" id="box-3"></div>
+    <p>BOX 3 is hidden with Display none property</p>
+    <p>display hide the element and its space as well</p>
+    <div class="box" id="box-4"></div>
+    <div class="box" id="box-5"></div>
+    <p>z-index works only if position is set and except static pos. the one having greater value will overlap the other</p>
+    <p> z-index with low value or -1 value gets hidden by the other element</p>
+    
+</body>
+</html>
