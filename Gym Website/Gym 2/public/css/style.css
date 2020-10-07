@@ -107,7 +107,7 @@ border-radius: 15px; */
             top: 30px;
             right: 29px;
         }
-
+        
         .btn {
             font-size: 18px;
             border: 2px solid gray;
@@ -117,6 +117,7 @@ border-radius: 15px; */
             cursor: pointer;
             font-family: 'Oswald', sans-serif;
             color: rgb(97, 97, 97);
+            box-shadow: 4px 10px green;
         }
 
         .btn:hover {
