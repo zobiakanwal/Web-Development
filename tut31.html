@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selectors</title>
+    <style>
+        h1{
+            background-color: tomato;
+            font-weight: bold;
+            text-align: center;
+        }
+        div p{
+            color: rgb(151, 35, 53);
+            background-color: lightskyblue;
+            font-weight: bold;
+        }
+        div li p{
+            color: rgb(30, 119, 27);
+            background-color: rgb(153, 226, 69);
+            font-weight: bold;
+        }
+        div > p{
+            color: rgb(52, 35, 151);
+            background-color: rgb(122, 199, 247);
+            font-weight: bold;
+        }
+        div + p{
+            color: rgb(110, 15, 52);
+            background-color: rgb(253, 173, 240);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more on Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li><p>This is para inside li</p></li>
+                <li>this will not get affected</li>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is the outermost paragraph</p>
+    
+</body>
+</html>
