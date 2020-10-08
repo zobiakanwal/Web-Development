@@ -122,6 +122,7 @@ border-radius: 15px; */
 
         .btn:hover {
             background-color: rgb(209, 207, 207);
+            box-shadow: 4px 10px rgb(53, 197, 77,0.8);
         }
 
         .container {
@@ -168,6 +169,7 @@ border-radius: 15px; */
             color: rgb(44, 44, 44);
             border-radius: 23px;
             font-size: 22px;
+            font-weight: bold;
         }
 
         .formGroup .btn:active {
