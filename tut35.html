@@ -8,6 +8,7 @@
         :root{
             --primary-color:pink;
             --secondary-color: palevioletred;
+            --maxw: 355px;
         }
         .Box{
             background-color: pink;
@@ -20,6 +21,10 @@
         .container{
             display: flex;
             background-color: var(--primary-color);
+            max-width: var(--maxw);
+            margin: auto;
+            justify-content:center;
+            align-items: center;
         }
     </style>
 </head>
