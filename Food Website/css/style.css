@@ -1,0 +1,47 @@
+/* CSS Reset */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+#logo{
+    margin: 17px 27px;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    padding: 0px;
+}
+.item{
+    list-style: none;
+}
+.item a{
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 18px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#navbar li a:hover{
+    color: black;
+    background-color: white;
+}
