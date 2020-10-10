@@ -27,6 +27,10 @@
             animation-iteration-count: infinite;
         }
 
+        .Box-1:hover {
+            animation-play-state: paused;
+        }
+
         @keyframes ball1 {
             from {
                 width: 200px;
@@ -66,28 +70,36 @@
             animation-iteration-count:infinite;
             animation-timing-function: ease-in; */
 
-            animation: ball3 3s infinite ease-in ;
+            animation: ball3 3s infinite ease-in;
         }
 
-        @keyframes ball3{
-            0%{
-                bottom:0px;
+        .Box-3:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes ball3 {
+            0% {
+                bottom: 0px;
                 left: 0px;
             }
-            25%{
+
+            25% {
                 bottom: 180px;
                 left: 0px;
             }
-            75%{
+
+            75% {
                 bottom: 180px;
                 left: 180px;
             }
-            100%{
+
+            100% {
                 bottom: 0px;
                 left: 180px;
             }
         }
-        .container>p{
+
+        .container>p {
             font-size: 24px;
             font-weight: bold;
             color: black;
@@ -103,7 +115,10 @@
         <div class="Box-1 Box"></div>
         <div class="Box-2 Box"></div>
         <div class="Box-3 Box"></div>
-        <p>Animation shorthand property: <br>animation-name , animation-duration , animation-timing-function , animation-delay , animation-iteration-count , animation-direction , animation-fill-mode , and animation-play-state </p>
+        <p>Animation shorthand property: <br>animation-name , animation-duration , animation-timing-function ,
+            animation-delay , animation-iteration-count , animation-direction , animation-fill-mode , and
+            animation-play-state </p>
     </div>
 </body>
+
 </html>
