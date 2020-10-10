@@ -12,9 +12,17 @@
             width: 200px;
             height: 200px;
             border-radius: 110px;
-            animation-name: ball1;
-            animation-duration: 3s;
-            animation-iteration-count: 3;
+            /* animation-name: ball1; */
+            /* animation-duration: 3s;
+            animation-iteration-count: 3; */
+            animation-duration: 0.7s;
+            animation-iteration-count: infinite;
+
+            animation-name: ball2;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            animation-fill-mode:forwards;
+            animation-timing-function: ease-in-out;
         }
 
         @keyframes ball1 {
@@ -23,7 +31,16 @@
             }
 
             to {
-                width: 300px;
+                width: 400px;
+            }
+        }
+        @keyframes ball2 {
+            from {
+                width: 200px;
+            }
+
+            to {
+                width: 600px;
             }
         }
 
