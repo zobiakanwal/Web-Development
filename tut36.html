@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keyframes and Animations</title>
-    <style>      
+    <style>
         .container {
             background-color: rgb(152, 205, 206);
         }
-        .Box{
+
+        .Box {
             margin-bottom: 20px;
             width: 200px;
             height: 200px;
@@ -22,17 +23,8 @@
 
             animation-name: ball1;
             animation-duration: 3s;
-            /* animation-iteration-count: 3;  */
             /* animation-duration: 0.7s; */
             animation-iteration-count: infinite;
-
-            /* animation-name: ball2;
-            animation-duration: 2s;
-            animation-iteration-count: 2;
-            animation-fill-mode:forwards;
-            animation-timing-function: ease-in-out;
-            animation-delay: 1s;
-            animation-direction:alternate; */
         }
 
         @keyframes ball1 {
@@ -46,19 +38,16 @@
         }
 
         .Box-2 {
-            background-color:crimson;
-            
-            /* animation-duration: 0.7s;
-            animation-iteration-count: infinite; */
-
+            background-color: crimson;
             animation-name: ball2;
             animation-duration: 2s;
             animation-iteration-count: 2;
-            animation-fill-mode:forwards;
+            animation-fill-mode: forwards;
             animation-timing-function: ease-in-out;
             animation-delay: 1s;
-            animation-direction:alternate;
+            animation-direction: alternate;
         }
+
         @keyframes ball2 {
             from {
                 width: 200px;
@@ -69,8 +58,40 @@
             }
         }
 
-        .Box-3{
-            background-color:forestgreen;
+        .Box-3 {
+            background-color: forestgreen;
+            animation-name: ball3;
+            position: relative;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;
+            animation-timing-function: ease-in;
+        }
+
+        @keyframes ball3{
+            0%{
+                bottom:0px;
+                left: 0px;
+            }
+            25%{
+                bottom: 180px;
+                left: 0px;
+            }
+            75%{
+                bottom: 180px;
+                left: 180px;
+            }
+            100%{
+                bottom: 0px;
+                left: 180px;
+            }
+        }
+        .container>p{
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            position: absolute;
+            left: 450px;
+            top: 2px;
         }
     </style>
 </head>
@@ -80,6 +101,7 @@
         <div class="Box-1 Box"></div>
         <div class="Box-2 Box"></div>
         <div class="Box-3 Box"></div>
+        <p>Animation shorthand property: <br>animation-name , animation-duration , animation-timing-function , animation-delay , animation-iteration-count , animation-direction , animation-fill-mode , and animation-play-state </p>
     </div>
 </body>
 
