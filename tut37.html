@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transitions</title>
+    <style>
+            body{
+                background-color: khaki;
+            }
+        .Box{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: purple;
+            width: 200px;
+            height: 200px;
+            border: 5px solid crimson;
+
+            /* transition-property: background-color height width; */
+            /* transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 0.3s;
+            transition-timing-function: ease-in-out; */
+            
+            /*Shorthand*/
+            transition: all 2s 0.3s ease-in-out;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Box">Applying Transition property on this box</div>
+    </div>
+</body>
+</html>
