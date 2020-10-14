@@ -87,4 +87,5 @@ body{
     padding: 5px 21px;
     border-radius: 10px;
     font-size: 1.5rem;
+    cursor: pointer;
 }
