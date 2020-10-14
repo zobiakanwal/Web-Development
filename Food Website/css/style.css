@@ -2,6 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Bree Serif', serif;
 }
 #logo img{
     height: 60px;
@@ -9,7 +10,7 @@ body{
     border-radius: 50px;
 }
 #logo{
-    margin: 17px 27px;
+    margin: 7px 27px;
 }
 #navbar {
     display: flex;
@@ -44,4 +45,22 @@ body{
 #navbar li a:hover{
     color: black;
     background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 200px;
+}
+#home>h1, #home>p{
+    margin: 0px;
+}
+#home::before{
+    content: "";
+    background: url(../img/bg1.jpg);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
 }
