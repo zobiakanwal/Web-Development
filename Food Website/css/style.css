@@ -59,8 +59,15 @@ body{
 }
 #home::before{
     content: "";
-    background: url(../img/bg1.jpg);
+    position: absolute;
+    /* background: url(../img/bg6.jpg) no-repeat top center/cover; */
+    background: url(../img/bg6.jpg) no-repeat top center/cover;
     z-index: -1;
-    height: 100%;
+    height: 110%;
     width: 100%;
+    /* opacity: 1; */
+}
+.h-primary{
+    font-size: 2.9rem;
+    padding: 13px;
 }
