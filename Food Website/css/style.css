@@ -56,6 +56,7 @@ body{
 }
 #home>h1, #home>p{
     margin: 0px;
+    padding: 0px;
 }
 #home::before{
     content: "";
@@ -68,6 +69,22 @@ body{
     /* opacity: 1; */
 }
 .h-primary{
-    font-size: 2.9rem;
+    font-size: 3.9rem;
     padding: 13px;
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    margin: 18px;
+    border: 2px solid white;
+    padding: 5px 21px;
+    border-radius: 10px;
+    font-size: 1.5rem;
 }
