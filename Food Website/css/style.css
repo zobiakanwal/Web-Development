@@ -55,10 +55,16 @@ body{
     justify-content: center;
     align-items: center;
     padding: 25px 200px;
+    height: 250px;
+    /* border: 2px solid red; */
+    margin-bottom: 70px;
 }
-#home>h1, #home>p{
+/* #home>h1, #home>p{
     margin: 0px;
     padding: 0px;
+} */
+#home>.h-primary{
+    color: white;
 }
 #home::before{
     content: "";
