@@ -64,19 +64,27 @@ body{
     /* background: url(../img/bg6.jpg) no-repeat top center/cover; */
     background: url(../img/bg6.jpg) no-repeat top center/cover;
     z-index: -1;
-    height: 110%;
+    height: 70%;
+    background-position-y: 50%;
     width: 100%;
     /* opacity: 1; */
-}
-.h-primary{
-    font-size: 3.9rem;
-    padding: 13px;
-    color: white;
-    text-align: center;
 }
 #home p{
     color: white;
     font-size: 1.4rem;
+    text-align: center;
+}
+.h-primary{
+    font-size: 3.9rem;
+    padding: 13px;
+    
+}
+.h-secondary{
+    font-size: 2.9rem;
+    padding: 13px;
+    
+}
+.center{
     text-align: center;
 }
 .btn{
