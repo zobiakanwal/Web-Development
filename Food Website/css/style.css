@@ -76,6 +76,19 @@ body{
     font-size: 1.4rem;
     text-align: center;
 }
+
+#services{
+    display: flex;
+    margin: 30px;
+}
+.box{
+    border: 2px solid red;
+}
+.box img{
+    height: 140px;
+    margin: auto;
+    display: block;
+}
 .h-primary{
     font-size: 3.9rem;
     padding: 13px;
