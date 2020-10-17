@@ -1,7 +1,9 @@
 /* CSS Reset */
-body{
+*{
     margin: 0px;
     padding: 0px;
+}
+body{
     font-family: 'Bree Serif', serif;
 }
 #logo img{
@@ -15,7 +17,7 @@ body{
 #navbar {
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
 }
 #navbar ul{
     display: flex;
