@@ -100,6 +100,20 @@ body{
     margin: auto;
     display: block;
 }
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client-item img{
+    height: 200px;
+}
+#client-container{
+    height: 350px;
+    border: 2px solid red;
+}
+
+
 .h-primary{
     font-size: 3.9rem;
     padding: 13px;
