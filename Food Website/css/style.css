@@ -106,13 +106,15 @@ body{
     justify-content: center;
 }
 .client-item img{
-    height: 200px;
+    height: 130px;
 }
 #client-container{
     height: 350px;
     border: 2px solid red;
 }
-
+.client-item{
+    padding: 25px;
+}
 
 .h-primary{
     font-size: 3.9rem;
