@@ -142,6 +142,7 @@ body{
 footer{
     background-color: black;
     color: white;
+    padding: 20px;
 }
 .h-primary{
     font-size: 3.9rem;
