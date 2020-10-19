@@ -58,7 +58,7 @@ body{
     padding: 25px 200px;
     height: 250px;
     /* border: 2px solid red; */
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 /* #home>h1, #home>p{
     margin: 0px;
@@ -86,7 +86,7 @@ body{
 
 #services{
     display: flex;
-    margin: 30px;
+    margin: 10px 30px;
 }
 .box{
     border: 2px solid red;
@@ -111,9 +111,20 @@ body{
 #client-container{
     height: 350px;
     border: 2px solid red;
+    position: relative;
 }
 .client-item{
     padding: 25px;
+}
+#client-container::before{
+    content: "";
+    background: url('../img/bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-size: 100px; */
+    z-index: -1;
+    opacity: 0.3;
 }
 
 .h-primary{
