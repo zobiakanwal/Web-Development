@@ -139,7 +139,10 @@ body{
     z-index: -1;
     opacity: 0.7;
 }
-
+footer{
+    background-color: black;
+    color: white;
+}
 .h-primary{
     font-size: 3.9rem;
     padding: 13px;
