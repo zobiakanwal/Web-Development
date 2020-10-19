@@ -112,6 +112,7 @@ body{
     height: 350px;
     border: 2px solid red;
     position: relative;
+    margin-top: 35px;
 }
 .client-item{
     padding: 25px;
