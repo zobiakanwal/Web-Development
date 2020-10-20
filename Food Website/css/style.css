@@ -154,6 +154,14 @@ footer{
 #contact-box input, #contact-box textarea{
     width: 100%;
     padding: 0.8rem;
+    border-radius: 15px;
+    font-size: 1.3rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.5rem;
 }
 
 .h-primary{
