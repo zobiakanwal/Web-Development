@@ -146,7 +146,14 @@ footer{
 }
 #contact-box input, #contact-box textarea{
     width: 100%;
-    padding: 0.9rem;
+    padding: 0.8rem;
+}
+#contact-box{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    padding-bottom: 35px;
 }
 
 .h-primary{
