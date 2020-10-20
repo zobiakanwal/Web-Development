@@ -144,16 +144,16 @@ footer{
     color: white;
     padding: 20px;
 }
+
+#contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+}
 #contact-box input, #contact-box textarea{
     width: 100%;
     padding: 0.8rem;
-}
-#contact-box{
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    display: flex;
-    padding-bottom: 35px;
 }
 
 .h-primary{
