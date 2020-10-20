@@ -144,6 +144,11 @@ footer{
     color: white;
     padding: 20px;
 }
+#contact-box input, #contact-box textarea{
+    width: 100%;
+    padding: 0.9rem;
+}
+
 .h-primary{
     font-size: 3.9rem;
     padding: 13px;
