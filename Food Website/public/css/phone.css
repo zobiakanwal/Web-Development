@@ -4,3 +4,8 @@
 #home{
     
 }
+
+
+#services{
+    flex-direction: column;
+}
