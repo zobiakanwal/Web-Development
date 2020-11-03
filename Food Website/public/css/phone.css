@@ -2,10 +2,17 @@
     flex-direction: column;
 }
 #home{
-    
+    height: 360px;
 }
-
-
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 14px;
+}
+.h-primary{
+    font-size: 27px;
+}
 #services{
     flex-direction: column;
 }
