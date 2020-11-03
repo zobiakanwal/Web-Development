@@ -9,3 +9,6 @@
 #services{
     flex-direction: column;
 }
+.box{
+    margin: 15px;
+}

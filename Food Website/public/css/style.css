@@ -77,6 +77,8 @@ body{
     background-position-y: 50%;
     width: 100%;
     /* opacity: 1; */
+    top: 0px;
+    left: 0px;
 }
 #home p{
     color: white;
