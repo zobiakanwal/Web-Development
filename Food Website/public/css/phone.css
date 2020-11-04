@@ -3,6 +3,7 @@
 }
 #home{
     height: 360px;
+    padding: 4px 30px;
 }
 #home::before{
     height: 480px;
@@ -11,7 +12,7 @@
     font-size: 14px;
 }
 .h-primary{
-    font-size: 27px;
+    font-size: 26px;
 }
 #services{
     flex-direction: column;
