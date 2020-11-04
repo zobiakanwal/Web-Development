@@ -6,17 +6,17 @@
     padding: 0px 8px;
 }
 #home{
-    height: 310px;
+    height: 165px;
     padding: 4px 30px;
 }
 #home::before{
-    height: 480px;
+    height: 330px;
 }
 #home p{
-    font-size: 14px;
+    font-size: 9px;
 }
 .h-primary{
-    font-size: 26px;
+    font-size: 25px;
 }
 #services{
     flex-direction: column;
