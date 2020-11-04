@@ -2,7 +2,7 @@
     flex-direction: column;
 }
 #home{
-    height: 360px;
+    height: 310px;
     padding: 4px 30px;
 }
 #home::before{
