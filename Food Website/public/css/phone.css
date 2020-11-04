@@ -47,6 +47,9 @@ p{
     width: 129px;
     height: auto;
 }
+#services-container::before{
+    height: 145%;
+}
 #clients{
     flex-wrap: wrap;
 }
