@@ -71,3 +71,8 @@ p{
 #contact-box .form-group input::placeholder{
     font-size: 1rem;
 }
+#contact-box input, #contact-box textarea{
+    /* width: 100%; */
+    padding: 0.4rem;
+    font-size: 0.9rem;
+}
