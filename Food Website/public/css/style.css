@@ -111,7 +111,7 @@ body{
     height: 130px;
 }
 #client-container{
-    height: 350px;
+    /* height: 350px; */
     /* border: 2px solid red; */
     position: relative;
     margin-top: 35px;
