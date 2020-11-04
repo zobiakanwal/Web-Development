@@ -13,10 +13,10 @@
     padding: 13px 27px;
 }
 #home .h-primary{
-    margin-top: 57px;
+    margin-top: 77px;
 }
 #home::before{
-    height: 300px;
+    height: 310px;
 }
 #home p{
     font-size: 0.9rem;
