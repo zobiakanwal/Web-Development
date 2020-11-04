@@ -17,7 +17,7 @@ body{
 #logo{
     margin: 7px 27px;
 }
-#navbar {
+#navbar{
     display: flex;
     align-items: center;
     position: sticky;
