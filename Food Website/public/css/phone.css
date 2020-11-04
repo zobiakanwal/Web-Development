@@ -31,3 +31,11 @@
 .box{
     margin: 15px;
 }
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 85px;
+    height: 75px;
+    padding: 2px 5px;
+}
