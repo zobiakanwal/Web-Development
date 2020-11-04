@@ -65,3 +65,9 @@ p{
     margin: 2px 0px;
     margin-bottom: 20px;
 }
+#contact-box .form-group label{
+    font-size: 1rem;
+}
+#contact-box .form-group input::placeholder{
+    font-size: 1rem;
+}
