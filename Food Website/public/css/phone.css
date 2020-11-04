@@ -75,6 +75,10 @@ p{
     padding: 0.4rem;
     font-size: 0.9rem;
 }
+#contact-box .form-group textarea{
+    /* width: 250px; */
+    height: 90px;
+}
 footer{
     padding: 10px;
     font-size: 0.8rem;
