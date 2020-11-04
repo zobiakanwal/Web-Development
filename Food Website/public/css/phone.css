@@ -19,7 +19,7 @@
     height: 300px;
 }
 #home p{
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 .btn{
     font-size: 14px;
@@ -30,6 +30,9 @@
 }
 .h-secondary{
     font-size: 1rem;
+}
+p{
+    font-size: 0.9rem;
 }
 #services{
     flex-direction: column;
