@@ -16,7 +16,10 @@
     height: 330px;
 }
 #home p{
-    font-size: 9px;
+    font-size: 14px;
+}
+.btn{
+    font-size: 14px;
 }
 .h-primary{
     font-size: 25px;
