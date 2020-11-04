@@ -10,7 +10,7 @@
 }
 #home{
     height: 95px;
-    padding: 13px 30px;
+    padding: 13px 27px;
 }
 #home .h-primary{
     margin-top: 57px;
@@ -26,13 +26,19 @@
     padding: 4px 7px;
 }
 .h-primary{
-    font-size: 25px;
+    font-size: 1.6rem;
+}
+.h-secondary{
+    font-size: 1rem;
 }
 #services{
     flex-direction: column;
 }
-.box{
-    margin: 15px;
+#services .box{
+    /* margin: 15px; */
+    margin: 2px 0px;
+    padding: 14px;
+    margin-bottom: 20px;
 }
 #clients{
     flex-wrap: wrap;
