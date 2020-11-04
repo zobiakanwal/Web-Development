@@ -39,3 +39,7 @@
     width: 65px;
     height: auto;
 }
+
+#contact-box form{
+    width: 80%;
+}
