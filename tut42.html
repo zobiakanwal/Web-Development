@@ -7,19 +7,39 @@
     <style>
         .grid{
             display: grid;
-            grid-template-columns: 2fr 3fr 3fr;
+            /* grid-template-columns: 2fr 3fr 3fr; */
+            grid-template-columns: repeat(5,2fr);
             grid-template-rows: repeat(3,2fr);
             grid-row-gap: 1rem;
             grid-column-gap: 2rem;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .box:first-child{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
         }
         .box{
             background-color: salmon;
             border: 2px solid red;
+            padding: 4px;
         }
     </style>
 </head>
 <body>
     <div class="grid">
+        <div class="box">This is box-1</div>
+        <div class="box">This is box-2</div>
+        <div class="box">This is box-3</div>
+        <div class="box">This is box-4</div>
+        <div class="box">This is box-5</div>
+        <div class="box">This is box-6</div>
+        <div class="box">This is box-7</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-9</div>
+        <div class="box">This is box-10</div>
         <div class="box">This is box-1</div>
         <div class="box">This is box-2</div>
         <div class="box">This is box-3</div>
