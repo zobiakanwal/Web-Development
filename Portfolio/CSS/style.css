@@ -5,6 +5,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.max-width{
+    padding: 0px 80px;
+}
 /* Styling navbar */
 .navbar{
     background: crimson;
