@@ -8,5 +8,7 @@
 /* Styling navbar */
 .navbar{
     background: crimson;
-    
+    position: fixed;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }
