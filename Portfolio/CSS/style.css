@@ -12,6 +12,11 @@
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
