@@ -16,6 +16,7 @@
     position: fixed;
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
+    padding: 15px 0px;
 }
 .navbar .max-width{
     display: flex;
