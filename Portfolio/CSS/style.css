@@ -12,6 +12,10 @@
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
 .navbar .menu li a{
     color: #fff;
 }
