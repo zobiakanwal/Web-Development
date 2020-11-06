@@ -12,3 +12,6 @@
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
+.navbar .menu li a{
+    color: #fff;
+}
