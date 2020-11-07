@@ -63,3 +63,7 @@
     font-size: 40px;
     margin: 5px 0;
 }
+.home .home-content .text-3 span{
+    font-weight: 500;
+    color:crimson;
+}
