@@ -45,4 +45,6 @@
     width: 100%;
     color: white;
     background-position: -200px 70px;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
 }
