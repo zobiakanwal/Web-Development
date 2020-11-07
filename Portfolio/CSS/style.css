@@ -52,11 +52,13 @@
     margin: auto 0 auto 40px;
 }
 .home .home-content .text-1{
-    font-size: ;
+    font-size: 27px;
 }
 .home .home-content .text-2{
-    font-size: ;
+    font-size: 75px;
+    font-weight: 600;
+    margin: -3px;
 }
 .home .home-content .text-3{
-    font-size: ;
+    font-size: 40px;
 }
