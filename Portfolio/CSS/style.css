@@ -33,6 +33,9 @@
     font-weight: 500;
     margin-left: 25px;
 }
+.navbar .menu li a:hover{
+    color: crimson;
+}
 .navbar .logo a{
     color: #fff;
     font-size: 35px;
