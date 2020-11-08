@@ -30,6 +30,9 @@
             body {
                 background-color: blue;
             }
+            span{
+              display: block;  
+            }
         }
 
         @media only screen and (min-width:300px) and (max-width:500px) {
@@ -38,6 +41,9 @@
             }
             aside{
                 display: none;
+            }
+            span{
+              display: block;  
             }
         }
 
@@ -54,6 +60,9 @@
             'aside aside aside aside'
             'footer footer footer footer';
         }
+        span{
+              display: block;  
+            }
         }
 
         @media only screen and (min-width:800px) {
@@ -72,7 +81,12 @@
 
 <body>
     <div class="container">
-        <nav class="sty">Home About Contact Services</nav>
+        <nav class="sty">
+            <span>Home</span>
+            <span>About</span>
+            <span>Contact</span>
+            <span>Services</span>
+        </nav>
         <section class="sty">
             <h2>Learn Web Development</h2>
         </section>
