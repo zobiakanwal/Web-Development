@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Grid with Media Queries</title>
     <style>
-        .container{
+        .container {
             display: grid;
             gap: 1rem;
+            grid-template-areas: 
+            nav nav nav nav
+            section section aside
+            footer footer footer footer;
         }
-    @media only screen and (min-width:0px) and (max-width:300px){
-        body{
-            background-color: blue;
+
+        @media only screen and (min-width:0px) and (max-width:300px) {
+            body {
+                background-color: blue;
+            }
         }
-    }
-    @media only screen and (min-width:300px) and (max-width:500px){
-       body{
-           background-color: red;
-       }
-    }
-    @media only screen and (min-width:500px) and (max-width:800px){
-        body{
-           background-color: green;
-       }
-    }
-    @media only screen and (min-width:800px) {
-        body{
-           background-color: yellow;
-       }
-    }
-    .sty{
-        background-color: papayawhip;
-        border: 2px solid plum;
-        padding: 25px;
-    }
-</style>
+
+        @media only screen and (min-width:300px) and (max-width:500px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        @media only screen and (min-width:500px) and (max-width:800px) {
+            body {
+                background-color: green;
+            }
+        }
+
+        @media only screen and (min-width:800px) {
+            body {
+                background-color: yellow;
+            }
+        }
+
+        .sty {
+            background-color: papayawhip;
+            border: 2px solid plum;
+            padding: 25px;
+        }
+    </style>
 </head>
+
 <body>
     <div class="container">
-    <nav class="sty">Home About Contact Services</nav>
-    <section class="sty">
-        <h2>Learn Web Development</h2>
-    </section>
-    <aside class="sty">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, iste.</aside>
-</div>
+        <nav class="sty">Home About Contact Services</nav>
+        <section class="sty">
+            <h2>Learn Web Development</h2>
+        </section>
+        <aside class="sty">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, iste.</aside>
+    </div>
+    <footer class="sty">Lorem ipsum dolor sit amet</footer>
 </body>
+
 </html>
