@@ -70,7 +70,9 @@ ul{
 .btn {
     font-size: 15px;
     padding: 2px 8px;
-    margin: 530px 2px;
-    cursor: pointer;
+    margin: 540px 2px;
     box-shadow: 2px 5px green;
+}
+::placeholder {
+    font-size: 12px;
 }
