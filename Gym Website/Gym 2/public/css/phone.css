@@ -27,6 +27,25 @@ body {
     line-height: 20px;
     font-size: 20px;
 }
+.navigationBox {
+    /* width: 100%; */
+    /* margin: auto; */
+    position: fixed;
+    top: 4px;
+    left: 50px;
+}
+.navbar li {
+    padding: 2px;
+    font-size: 16px;
+}
+.navbar li a {
+    height: 30px;
+    width:90px;
+    padding-top: 0px;
+}
+.large-text{
+    font-size: 12px;
+}
 .container {
     width: 50%;
     height: 70%;
