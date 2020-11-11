@@ -35,7 +35,7 @@ body {
     left: 50px;
 }
 ul{
-    padding: 0px ;
+    padding: 0px 30px;
 }
 .navbar li {
     padding: 2px;
@@ -43,7 +43,7 @@ ul{
 }
 .navbar li a {
     height: 30px;
-    width: 70px;
+    width: 60px;
     padding-top: 0px;
 }
 .container {
