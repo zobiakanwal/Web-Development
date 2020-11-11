@@ -82,3 +82,8 @@ ul{
     background-color: rgba(58, 211, 84, 0.815);
     font-size: large;
 }
+.buttonsBox{
+    position: absolute;
+    top: 50px;
+    right: 5px;
+}
