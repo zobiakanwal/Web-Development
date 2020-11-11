@@ -17,3 +17,9 @@ body {
 .container h1 {
     font-size: 26px;
 }
+.formGroup input, .formGroup button {
+    padding: 5px 2px;
+    width: 90%;
+    margin: 6px auto;
+    font-size: 18px;
+}
