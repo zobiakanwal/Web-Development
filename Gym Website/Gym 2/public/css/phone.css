@@ -62,3 +62,15 @@ ul{
     margin: 6px auto;
     font-size: 18px;
 }
+.formGroup .btn {
+    margin-top: 4px;
+    border-radius: 23px;
+    font-size: 17px;
+}
+.btn {
+    font-size: 15px;
+    padding: 2px 8px;
+    margin: 530px 2px;
+    cursor: pointer;
+    box-shadow: 2px 5px green;
+}
