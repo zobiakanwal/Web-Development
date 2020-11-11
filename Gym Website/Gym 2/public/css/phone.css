@@ -7,11 +7,11 @@ body {
 }
 .logoBox {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 0px;
     font-size: 18px;
     /* font-weight: bold; */
-    width: 120px;
+    width: 60px;
     margin: 0px;
 }
 
@@ -28,11 +28,14 @@ body {
     font-size: 20px;
 }
 .navigationBox {
-    /* width: 100%; */
+    width: 100%;
     /* margin: auto; */
     position: fixed;
     top: 4px;
     left: 50px;
+}
+ul{
+    padding: 0px ;
 }
 .navbar li {
     padding: 2px;
