@@ -40,11 +40,8 @@ body {
 }
 .navbar li a {
     height: 30px;
-    width:90px;
+    width: 70px;
     padding-top: 0px;
-}
-.large-text{
-    font-size: 12px;
 }
 .container {
     width: 50%;
