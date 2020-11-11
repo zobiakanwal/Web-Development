@@ -70,7 +70,7 @@ ul{
 .btn {
     font-size: 15px;
     padding: 2px 8px;
-    margin: 540px 2px;
+    /* margin: 540px 2px; */
     box-shadow: 2px 5px green;
 }
 ::placeholder {
@@ -84,6 +84,6 @@ ul{
 }
 .buttonsBox{
     position: absolute;
-    top: 50px;
+    top: 560px;
     right: 5px;
 }
