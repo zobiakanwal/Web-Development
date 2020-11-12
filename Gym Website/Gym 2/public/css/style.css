@@ -50,7 +50,7 @@
             width: 100%;
             display: block;
             /* margin: auto; */
-            position: fixed;
+            position: absolute;
             top: 14px;
             /* left: 250px; */
         }
@@ -102,7 +102,7 @@
         .buttonsBox {
             /* border: 2px solid coral; */
             position: absolute;
-            top: 30px;
+            top: 15px;
             right: 29px;
         }
         
