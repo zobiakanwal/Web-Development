@@ -96,7 +96,7 @@ body{
     display: flex;
     margin: 10px 30px;
     margin-bottom: 20px;
-    color: rgb(250, 115, 4);
+    color: rgb(247, 81, 16);
 }
 .box{
     border: 2px solid red;
@@ -191,12 +191,13 @@ footer{
 .h-primary{
     font-size: 3.9rem;
     padding: 13px;
+    color: rgb(77, 39, 39);
     
 }
 .h-secondary{
     font-size: 2.2rem;
     padding: 13px;
-    color:red;
+    color:rgb(230, 13, 13);
 }
 .center{
     text-align: center;
@@ -217,7 +218,7 @@ footer{
     border: 3px solid rgb(80, 79, 79);
     color: white;
     border-radius: 11px;
-    background-color:rgb(48, 7, 78);
+    background-color: rgb(58, 50, 63);
     padding: 4px 15px;
     position: absolute;
     right: 15px;
@@ -232,8 +233,8 @@ footer{
     border: 3px solid rgb(68, 66, 66);
     color:white;
     border-radius: 11px;
-    background-color: rgb(48, 7, 78);
-    padding: 4px 15px;
+    background-color: rgb(58, 50, 63);
+        padding: 4px 15px;
     font-size: 1.5rem;
     width: 110px;
     display: block;
