@@ -9,15 +9,15 @@ body {
     position: absolute;
     top: 5px;
     left: 0px;
-    font-size: 18px;
+    /* font-size: 27px; */
     /* font-weight: bold; */
     width: 60px;
     margin: 0px;
 }
 
 .logoBox img {
-    width: 40px;
-    height: 50px;
+    width: 35px;
+    height: 45px;
     filter: drop-shadow(0px 0px 10px rgba(12, 241, 51, 0.815));
     /* filter: invert(); */
     margin-top: 8px;
@@ -25,7 +25,7 @@ body {
 
 .logoBox div {
     line-height: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .navigationBox {
     position: fixed;
@@ -41,12 +41,12 @@ ul{
     width: 80%;
 }
 .navbar li {
-    padding: 2px;
+    padding: 0px;
     font-size: 16px;
 }
 .navbar li a {
-    height: 30px;
-    width: 60px;
+    height: 33px;
+    width: 63px;
     padding-top: 0px;
 }
 .container {
