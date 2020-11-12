@@ -214,9 +214,9 @@ footer{
 #top{
     text-decoration: none;
     border: 3px solid rgb(80, 79, 79);
-    color: darkslategray;
+    color: white;
     border-radius: 11px;
-    background-color: darkgray;
+    background-color:rgb(48, 7, 78);
     padding: 4px 15px;
     position: absolute;
     right: 15px;
