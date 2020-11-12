@@ -22,7 +22,6 @@ body {
     /* filter: invert(); */
     margin-top: 8px;
 }
-
 .logoBox div {
     line-height: 20px;
     font-size: 18px;
@@ -48,6 +47,20 @@ ul{
     height: 33px;
     width: 63px;
     padding-top: 0px;
+}
+.navbar li a {
+    text-decoration: none;
+    border-radius: 19px;
+    display: inline-block;
+    height: 33px;
+    width: 63px;
+    padding-top: 0px;
+}
+
+.navbar li a:hover {
+    font-size: 20px;
+    height: 40px;
+    width: 70px;
 }
 .container {
     width: 50%;
