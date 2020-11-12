@@ -46,21 +46,26 @@
         }
 
         .navigationBox {
-            /* border: 2px solid coral; */
-            width: 69%;
-            margin: auto;
+            border: 2px solid coral;
+            width: 100%;
+            display: block;
+            /* margin: auto; */
             position: fixed;
             top: 14px;
-            left: 250px;
+            /* left: 250px; */
         }
-
+        .navbar{
+            border: 2px solid rgb(0, 183, 255);
+            margin: auto;
+            width: 50%;
+        }
         .navbar li {
             list-style: none;
-            display: inline;
+            display: inline-block;
             padding: 2px;
             font-size: 21px;
         }
-
+        
         .navbar li a {
             text-decoration: none;
             /* color: rgb(80, 78, 78); */

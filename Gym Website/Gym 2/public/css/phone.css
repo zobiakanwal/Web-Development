@@ -75,6 +75,7 @@ ul{
 }
 ::placeholder {
     font-size: 12px;
+    font-weight: bold;
 }
 .formGroup .btn:active {
     margin-top: 2px;
