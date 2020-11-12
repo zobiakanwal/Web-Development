@@ -96,6 +96,7 @@ body{
     display: flex;
     margin: 10px 30px;
     margin-bottom: 20px;
+    color: rgb(250, 115, 4);
 }
 .box{
     border: 2px solid red;
