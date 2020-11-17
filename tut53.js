@@ -10,3 +10,6 @@ function subjects (sub){
 }
 
 subjects(sub1);
+subjects(sub2);
+subjects(sub3);
+subjects(sub4);
