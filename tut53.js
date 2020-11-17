@@ -8,3 +8,5 @@ let sub4 = 'Physics';
 function subjects (sub){
     console.log(sub + ' is a compulsory subject');
 }
+
+subjects(sub1);
