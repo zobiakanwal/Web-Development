@@ -16,12 +16,19 @@
         console.log("Last position Of cd is ",positionOfcd);
 
         //substring
-        var str= "hello_world";
-        var substr= str.slice(0,5);
+        var str= "hello_world!";
+        var substr= str.slice(0,5); //index,end
         console.log(substr);
-        substr = str.substring(0,5);
+        substr = str.substring(0,5); //index,end
         console.log(substr);
-        substr = str.substr(0,5);
+        substr = str.substr(0,5); //index,length
+        console.log(substr);
+
+        substr= str.slice(7,5); //index,end
+        console.log(substr);
+        substr = str.substring(7,5); //index,end
+        console.log(substr);
+        substr = str.substr(7,5); //index,length
         console.log(substr);
 
     </script>
