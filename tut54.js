@@ -1,0 +1,1 @@
+alert("Alert does not return anything");
