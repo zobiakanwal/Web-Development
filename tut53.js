@@ -5,11 +5,11 @@ let sub2 = 'English';
 let sub3 = 'Computer';
 let sub4 = 'Physics';
 
-function subjects (sub){
-    console.log(sub + ' is a compulsory subject');
+function subjects (sub, greet){
+    console.log(greet +" "+ sub + ' is a compulsory subject');
 }
 
-subjects(sub1);
-subjects(sub2);
-subjects(sub3);
-subjects(sub4);
+subjects(sub1, greet);
+subjects(sub2, greet);
+subjects(sub3, greet);
+subjects(sub4, greet);
