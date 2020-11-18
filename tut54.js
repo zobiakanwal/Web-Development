@@ -12,3 +12,9 @@ else{
 
 //Confirm
 deletePost = confirm("Do you want to delete?");
+if (deletePost){
+    console.log("The post is deleted");
+}
+else {
+    console.log("The post cannot be deleted");
+}
