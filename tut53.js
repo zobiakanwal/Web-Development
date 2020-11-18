@@ -14,3 +14,10 @@ subjects(sub1, greetings);
 subjects(sub2, greetings);
 subjects(sub3);
 subjects(sub4, greetings);
+
+function returnFunc(a,b){
+    c=a+b;
+    return c;
+}
+returnVal = returnFunc(3,4);
+console.log(returnVal);
