@@ -4,3 +4,8 @@ var i = 0;
 for(i=0;i<4;i++){
     console.log(i);
 }
+
+let names = ['Ali', 'Ahsan', 'Arman', 'Zobia'];
+names.forEach(function (element){
+    console.log(element);
+})
