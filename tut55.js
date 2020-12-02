@@ -6,6 +6,9 @@ for(i=0;i<4;i++){
 }
 
 let names = ['Ali', 'Ahsan', 'Arman', 'Zobia'];
+for(index=0; index<names.length; index++){
+    console.log("using for loop ",names[index]);
+}
 
 names.forEach(function (element){
     console.log("using forEach loop ",element);
